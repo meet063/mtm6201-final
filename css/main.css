@@ -1,4 +1,4 @@
-/* ROOT / GLOBAL STYLES*/
+/* global variables for colors, fonts, and theme used across the website */
 :root {
   --primary-green: #5f7f63;
   --dark-green: #3f5a43;
@@ -15,7 +15,7 @@
   --shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
 }
 
-/*  RESET */
+/* basic reset for body, images, headings, and links for consistent layout */
 html {
   scroll-behavior: smooth;
 }
@@ -55,7 +55,7 @@ section {
   overflow: hidden;
 }
 
-/* ACCESSIBILITY */
+/* skip link added for better keyboard navigation and accessibility */
 .skip-link {
   position: absolute;
   top: -60px;
@@ -73,7 +73,7 @@ section {
   color: var(--white);
 }
 
-/* HEADER / NAVBAR */
+/* styling for navbar, logo, and navigation links with hover effects */
 .site-header,
 .main-navbar {
   background-color: var(--light-green);
@@ -145,7 +145,7 @@ section {
   box-shadow: none;
 }
 
-/* HOME PAGE */
+/* styles for hero section, images, and layout for homepage */
 
 .hero-section,
 .hero-section .container-fluid,
@@ -156,7 +156,7 @@ section {
   padding: 0 !important;
 }
 
-/* important fix */
+/* grid layout for feature images with overlay text */
 .hero-section .container-fluid {
   max-width: 100%;
   padding-left: 0 !important;
@@ -317,7 +317,7 @@ section {
   margin-bottom: 0.75rem;
 }
 
-/* ABOUT PAGE */
+/* styles for about hero, story section, and info cards */
 .about-hero-banner,
 .our-story-banner {
   position: relative;
@@ -421,7 +421,7 @@ section {
   color: var(--gray);
 }
 
-/* MENU PAGE*/
+/* styles for menu hero, tags, and menu cards */
 
 /* parent */
 .menu-hero {
@@ -557,7 +557,7 @@ section {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-/* CONTACT PAGE */
+/* styles for contact hero, form, and contact info section */
 .contact-hero {
   position: relative;
 }
@@ -635,7 +635,7 @@ section {
   transform: translateY(-2px);
 }
 
-/* FOOTER */
+/* footer layout including newsletter form and social icons */
 .site-footer {
   background-color: var(--light-green);
   padding: 2rem 1rem;
@@ -728,7 +728,7 @@ section {
   font-size: 0.95rem;
 }
 
-/* TABLET */
+/* responsive styles for tablet screen sizes */
 @media (min-width: 768px) {
   .hero-img,
   .reserve-img,
@@ -770,7 +770,7 @@ section {
   }
 }
 
-/* DESKTOP*/
+/* layout improvements for desktop screens */
 @media (min-width: 992px) {
   .main-navbar {
     padding: 1rem 2rem;
@@ -851,7 +851,7 @@ section {
   }
 }
 
-/*  LARGE DESKTOP */
+/* extra spacing and sizing for large screens */
 @media (min-width: 1200px) {
   .hero-img,
   .reserve-img {
@@ -881,7 +881,7 @@ section {
   }
 }
 
-/*MOBILE  */
+/* mobile-specific fixes for layout and image sizing */
 @media (max-width: 767.98px) {
   .hero-section,
   .hero-section .container-fluid,
